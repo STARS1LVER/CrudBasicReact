@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 
 export function useCrud() {
   const [data, setData] = useState([
-    { id: 1, personaje: "Naruto", anime: "Naruto" },
-    { id: 2, personaje: "Goku", anime: "Dragon Ball" },
-    { id: 3, personaje: "Kenshin Himura", anime: "Rurouni Kenshin" },
+    { id: 1, personaje: "Mob", anime: "MobPyscho" },
+    { id: 2, personaje: "Levi", anime: "Shingeky No Kiojin" },
+    { id: 3, personaje: "Killua", anime: "Hunter x Hunter" },
   ]);
 
   const [modalActualizar, setModalActualizar] = useState(false);
